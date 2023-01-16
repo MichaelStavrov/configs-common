@@ -1,5 +1,5 @@
 {
-  "name": "zagsHost",
+  "name": "configsCommon",
   "version": "2.0.0",
   "description": "new zags app",
   "main": "index.ts",
