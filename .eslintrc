@@ -1,0 +1,49 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "extends": ["airbnb", "airbnb/hooks", "airbnb-typescript", "prettier"],
+  "rules": {
+    "react/no-unstable-nested-components": "off",
+    "func-names": "off",
+    "radix": "off",
+    "object-shorthand": "off",
+    "react/function-component-definition": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/require-default-props": "off",
+    "@typescript-eslint/no-unused-vars": "warn",
+    "no-console": "off",
+    "no-restricted-exports": "off",
+    "class-methods-use-this": "off",
+    "arrow-body-style": "off",
+    "no-param-reassign": "off",
+    "react/no-this-in-sfc": "off",
+    "no-restricted-syntax": "off",
+    "no-prototype-builtins": "off",
+    "consistent-return": "off",
+    "jsx-a11y/label-has-associated-control": [
+      "error",
+      {
+        "required": {
+          "some": ["nesting", "id"]
+        }
+      }
+    ],
+    "jsx-a11y/label-has-for": [
+      "error",
+      {
+        "required": {
+          "some": ["nesting", "id"]
+        }
+      }
+    ],
+    "import/prefer-default-export": "off"
+  }
+}
