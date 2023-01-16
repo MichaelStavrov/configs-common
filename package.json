@@ -1,7 +1,7 @@
 {
   "name": "configsCommon",
   "version": "1.0.0",
-  "description": "new zags app",
+  "description": "common configs",
   "main": "index.ts",
   "author": "",
   "scripts": {
